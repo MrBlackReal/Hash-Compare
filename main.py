@@ -20,7 +20,7 @@ def hashFile(file):
     return sha256.hexdigest();
 
 # We are getting the files with the args.
-# python main.py C:/dir/to/file1 C:/dir/to/file2
+# python main.py C:/path/to/file1 C:/path/to/file2
 file1 = sys.argv[1];
 file2 = sys.argv[2]
 
